@@ -50,7 +50,7 @@ registries:
     type: git
     url: https://<GHES-instance-name>
     username: "honeyankit"
-    password: ${{secrets.MY_GITHUB_PERSONAL_TOKEN}}
+    password: ${{secrets.MY_GHES_INSTANCE_TOKEN}}
 
 updates:
   - package-ecosystem: "bundler"
