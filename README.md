@@ -64,7 +64,7 @@ updates:
 
 5. We need to add PAT token (from [https://<GHES-instance-name>](https://<GHES-instance-name>/settings/tokens)) to the `Dependabot Secrets` of the new repository in the GHES instance. Below are the steps.
 
-   Go to repository's `Settings` --> `Secrets` --> `Dependabot` --> click on `New repository secret` --> enter `MY_GITHUB_PERSONAL_TOKEN` in the `Name` section and paste the PAT token in the `Secret` section and click on `Add secret`.
+   Go to repository's `Settings` --> `Secrets` --> `Dependabot` --> click on `New repository secret` --> enter `MY_GHES_INSTANCE_TOKEN` in the `Name` section and paste the PAT token in the `Secret` section and click on `Add secret`.
 
 6. The dependaobt should be able to bump the version of the `ghes-private-package-gem-on-ghes-instance` gem.
 
