@@ -62,7 +62,7 @@ updates:
     insecure-external-code-execution: allow
 ```
 
-5. We need to add PAT token (from [https://<ghes-instance-name>](https://<ghes-instance-name>/settings/tokens)) to the `Dependabot Secrets` of the new repository in the GHES instance. Below are the steps.
+5. We need to add PAT token (from [https://ghes-instance-name](https://<ghes-instance-name>/settings/tokens)) to the `Dependabot Secrets` of the new repository in the GHES instance. Below are the steps.
 
    Go to repository's `Settings` --> `Secrets` --> `Dependabot` --> click on `New repository secret` --> enter `MY_GHES_INSTANCE_TOKEN` in the `Name` section and paste the PAT token in the `Secret` section and click on `Add secret`.
 
